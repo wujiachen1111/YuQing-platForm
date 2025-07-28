@@ -8,7 +8,7 @@
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│     前端应用      │    │   Java后端服务    │    │  Python分析服务   │
+│     前端应用     │    │   Java后端服务    │    │  Python分析服务  │
 │   (Vue/React)   │◄──►│  (Spring Boot)  │◄──►│ (Flask/FastAPI) │
 │                 │    │                 │    │                 │
 │ • 用户界面       │    │ • 业务逻辑       │    │ • 数据分析       │
@@ -734,8 +734,8 @@ spring.datasource.hikari.max-lifetime=1800000
 ## 联系方式
 
 - **项目负责人**: zanewu
-- **邮箱**: your-email@example.com
-- **项目地址**: https://github.com/your-username/YuQing-platForm
+- **邮箱**: wujunhao0921@gmail.com
+- **项目地址**: https://github.com/wujiachen1111/YuQing-platForm
 
 ---
 
