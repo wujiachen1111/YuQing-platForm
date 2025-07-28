@@ -70,7 +70,14 @@
 ## 项目结构
 
 ```
-src/main/java/com/zanewu/yuqingplatform/
+YuQing-platForm/
+├── python_service/           # Python分析服务
+│   ├── app/                  # Flask应用核心
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── requirements.txt      # Python依赖
+│   └── run.py                # 启动脚本
+├── src/main/java/com/zanewu/yuqingplatform/
 ├── common/                    # 公共基础类
 │   ├── BaseParam.java         # 参数基础类
 │   ├── BaseVO.java           # VO基础类
@@ -190,11 +197,21 @@ mvn clean compile
 mvn spring-boot:run
 ```
 
-4. **启动Python分析服务** (需要你的同事提供)
+4. **启动Python分析服务**
 ```bash
-# 示例Python服务启动命令
-cd python-analysis-service
-python app.py
+# 进入Python服务目录
+cd python_service
+
+# (可选) 创建并激活虚拟环境
+python3 -m venv venv
+source venv/bin/activate  # macOS/Linux
+# venv\Scripts\activate   # Windows
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 启动服务 (开发模式)
+flask run
 ```
 
 ### 验证服务
@@ -462,8 +479,9 @@ docker run -d --name mysql \
 mvn spring-boot:run
 
 # 3. 启动Python服务 (端口5000)
-cd python-analysis-service
-python app.py
+cd python_service
+# (安装依赖，参考开发环境)
+gunicorn -w 4 -b 0.0.0.0:5000 run:app
 ```
 
 ### 生产环境部署
@@ -519,9 +537,10 @@ java -jar target/yuqing-platform-1.0.jar \
   --spring.profiles.active=prod \
   --spring.datasource.url=jdbc:mysql://your-db-host:3306/yuqing_platform
 
-# 3. 启动Python服务
-cd python-analysis-service
-python app.py --host=0.0.0.0 --port=5000
+# 3. 启动Python服务 (生产模式)
+cd python_service
+# (安装依赖，参考开发环境)
+gunicorn -w 4 -b 0.0.0.0:5000 run:app
 ```
 
 ## 监控和运维
