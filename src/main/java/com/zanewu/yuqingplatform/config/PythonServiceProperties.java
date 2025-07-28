@@ -22,7 +22,7 @@ public class PythonServiceProperties {
      * Python服务基础URL
      */
     @NotBlank(message = "Python服务基础URL不能为空")
-    private String baseUrl = "http://localhost:5000";
+    private String baseUrl;
 
     /**
      * 连接超时时间（毫秒）
