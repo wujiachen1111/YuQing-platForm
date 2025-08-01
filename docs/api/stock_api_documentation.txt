@@ -1,0 +1,177 @@
+股票数据API接口文档
+
+基础信息
+服务地址：http://localhost:5000
+API前缀：/api
+数据格式：JSON
+
+1. 获取单个股票数据
+获取股票基本信息及K线数据，并保存到数据库
+
+URL
+/api/stock/{stock_code}
+
+Method
+GET
+
+Path参数
+参数名	类型	必填	描述
+stock_code	string	是	股票代码，如 000651
+
+成功响应 (200)
+json
+{
+  "status": "success",
+  "message": "数据已保存",
+  "stock_code": "000651",
+  "basic_info": {
+    "stock_name": "格力电器",
+    "latest_price": 34.4,
+    "pe_ttm": "12.34",
+    "pb": "3.45",
+    "turnover_rate": 1.23,
+    "heat": "12345678"
+  },
+  "day_kline_count": 22,
+  "month_kline_count": 24
+}
+
+错误响应 (400)
+json
+{
+  "status": "error",
+  "message": "获取基本信息失败",
+  "stock_code": "000651"
+}
+
+错误响应 (500)
+json
+{
+  "status": "error",
+  "message": "处理股票失败: ...",
+  "stock_code": "000651"
+}
+
+
+2. 批量处理股票数据
+批量添加股票数据抓取任务（异步处理）
+
+URL
+/api/stocks/batch
+
+Method
+POST
+
+请求体
+json
+{
+  "stock_codes": ["000651", "600519", "300750"]
+}
+
+成功响应 (200)
+json
+{
+  "status": "success",
+  "message": "任务已添加到后台处理",
+  "task_count": 3
+}
+
+错误响应 (400)
+json
+{
+  "status": "error",
+  "message": "未提供股票代码"
+}
+
+
+3. 查询任务队列状态
+获取当前待处理的任务数量
+
+URL
+/api/queue/status
+
+Method
+GET
+
+成功响应 (200)
+json
+{
+  "status": "success",
+  "queue_size": 5
+}
+
+
+数据结构说明
+
+1. 股票基本信息 (basic_info)
+字段	类型	描述
+stock_name	string	股票名称
+latest_price	float	最新价格
+pe_ttm	string	市盈率(TTM)
+pb	string	市净率
+turnover_rate	float	换手率
+heat	int	热度（交易量）
+
+2. K线数据结构
+字段	类型	描述
+date	string	日期 (YYYY-MM-DD)
+open	float	开盘价
+high	float	最高价
+low	float	最低价
+close	float	收盘价
+change	float	价格变动
+change_pct	float	涨跌幅百分比
+volume	float	成交量（万手）
+amount	float	成交额（亿元）
+
+错误代码说明
+状态码	含义	可能原因
+200	成功	请求处理成功
+400	错误请求	参数缺失或格式错误
+500	服务器内部错误	数据处理失败或数据库错误
+
+使用示例
+Python调用示例
+python
+import requests
+
+# 获取单个股票数据
+response = requests.get("http://localhost:5000/api/stock/000651")
+print(response.json())
+
+# 批量添加任务
+batch_data = {"stock_codes": ["000651", "600519", "300750"]}
+response = requests.post("http://localhost:5000/api/stocks/batch", json=batch_data)
+print(response.json())
+
+# 查询队列状态
+response = requests.get("http://localhost:5000/api/queue/status")
+print(response.json())
+
+
+JavaScript调用示例
+javascript
+// 获取单个股票数据
+fetch('http://localhost:5000/api/stock/000651')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// 批量添加任务
+fetch('http://localhost:5000/api/stocks/batch', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({stock_codes: ["000651", "600519"]})
+})
+.then(response => response.json())
+.then(data => console.log(data));
+
+
+注意事项
+1.批量处理是异步操作，添加任务后立即返回
+2.单个股票数据处理包括：
+  获取基本信息
+  获取最近22条日K线数据
+  获取最近24条月K线数据
+  保存到数据库
+3.推荐使用后台任务处理批量请求
+4.可以通过 /docs 访问Swagger UI交互文档
