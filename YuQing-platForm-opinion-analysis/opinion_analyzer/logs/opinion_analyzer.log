@@ -1,0 +1,371 @@
+2025-07-30 15:18:02,351 - src.crawler.sina_crawler - WARNING - 未找到文章内容容器: http://test.com/news1
+2025-07-30 15:32:56,049 - src.analyzer.opinion_analyzer - ERROR - 解析实体JSON失败: Expecting value: line 1 column 1 (char 0)
+2025-07-30 15:51:30,704 - __main__ - INFO - 正在启动舆情分析API服务...
+2025-07-30 15:51:30,705 - __main__ - INFO - 服务地址: http://0.0.0.0:8000
+2025-07-30 15:51:30,705 - __main__ - INFO - API文档地址: http://0.0.0.0:8000/api/docs
+2025-07-30 15:51:30,705 - __main__ - INFO - 调试模式: 关闭
+2025-07-30 16:00:12,282 - __main__ - INFO - 正在启动舆情分析API服务...
+2025-07-30 16:00:12,283 - __main__ - INFO - 服务地址: http://127.0.0.1:8000
+2025-07-30 16:00:12,283 - __main__ - INFO - API文档地址: http://127.0.0.1:8000/api/docs
+2025-07-30 16:00:12,283 - __main__ - INFO - 调试模式: 开启
+2025-07-30 16:10:02,001 - __main__ - INFO - 正在启动舆情分析API服务...
+2025-07-30 16:10:02,002 - __main__ - INFO - 服务地址: http://127.0.0.1:8000
+2025-07-30 16:10:02,002 - __main__ - INFO - API文档地址: http://127.0.0.1:8000/api/docs
+2025-07-30 16:10:02,002 - __main__ - INFO - 调试模式: 开启
+2025-07-30 16:15:27,556 - src.api.routes - INFO - 收到舆情分析请求: keyword=特斯拉, limit=20
+2025-07-30 16:15:28,600 - src.api.routes - INFO - 搜索到 10 条新闻
+2025-07-30 16:15:34,913 - src.api.routes - INFO - 分析完成: title=世界500强中的车企：比亚迪超越特斯拉进入前100名，奇瑞上升152位, is_opinion=False, sentiment=neutral
+2025-07-30 16:15:40,310 - src.api.routes - INFO - 分析完成: title=廉价版Cybertruck？特斯拉规划新皮卡车，尺寸减小价格更低, is_opinion=False, sentiment=neutral
+2025-07-30 16:15:44,705 - src.api.routes - INFO - 分析完成: title=LG新能源60亿美元LFP电池订单：特斯拉合作敲定，多元化战略奏效, is_opinion=False, sentiment=neutral
+2025-07-30 16:15:49,573 - src.api.routes - INFO - 分析完成: title=特斯拉改装石家庄奥盛腾独家代理的德高音响, is_opinion=False, sentiment=neutral
+2025-07-30 16:16:20,184 - src.api.routes - INFO - 分析完成: title=懂车帝40款车智驾横评特斯拉登顶，华为问界M9撞墙引争议, is_opinion=True, sentiment=negative
+2025-07-30 16:16:45,413 - src.api.routes - INFO - 分析完成: title=小米问界特斯拉辅助驾驶对决，三车同测城区高速表现, is_opinion=True, sentiment=neutral
+2025-07-30 16:16:50,804 - src.api.routes - INFO - 分析完成: title=特斯拉豪掷43亿美元采购LGLFP电池，专供美国储能系统, is_opinion=False, sentiment=neutral
+2025-07-30 16:16:56,164 - src.api.routes - INFO - 分析完成: title=特斯拉 Robotaxi 即将登陆加州，官方信息暗示安全员需坐在驾驶位, is_opinion=False, sentiment=neutral
+2025-07-30 16:17:00,946 - src.api.routes - INFO - 分析完成: title=特斯拉2025.26软件新增音彩光舞功能, is_opinion=False, sentiment=neutral
+2025-07-30 16:17:05,299 - src.api.routes - INFO - 分析完成: title=消息称LG新能源与特斯拉签署43亿美元电池供应协议, is_opinion=False, sentiment=neutral
+2025-07-30 16:17:05,308 - src.api.routes - INFO - 分析统计: keyword=特斯拉, total=10, opinion_count=2, opinion_ratio=20.00%
+2025-07-30 16:27:19,815 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:27:20,708 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:27:25,176 - src.api.routes - INFO - 分析完成: title=乐道L60中保研碰撞测试获全五星评级, is_opinion=False, sentiment=neutral
+2025-07-30 16:27:25,182 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:27:25,535 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:27:27,458 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:27:33,616 - src.api.routes - INFO - 分析完成: title=乐道L60中保研碰撞测试获全五星评级, is_opinion=False, sentiment=neutral
+2025-07-30 16:27:33,624 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:27:33,659 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:27:34,876 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:27:41,010 - src.api.routes - INFO - 分析完成: title=乐道L60中保研碰撞测试获全五星评级, is_opinion=False, sentiment=neutral
+2025-07-30 16:27:41,013 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:28:12,503 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:28:14,386 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:28:16,147 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:28:16,156 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:28:16,641 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:28:18,733 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:28:20,821 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:28:20,825 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:28:20,849 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:28:21,911 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:28:22,673 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:28:22,682 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:28:55,845 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:28:57,263 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:28:58,379 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:28:58,384 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:28:58,727 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:29:00,398 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:29:01,961 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:29:01,966 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:29:01,982 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:29:02,844 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:29:04,766 - src.crawler.sina_crawler - WARNING - 未提取到文章内容: https://finance.sina.com.cn/7x24/2025-07-30/doc-infifvku8377608.shtml
+2025-07-30 16:29:04,769 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:30:35,009 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:30:36,942 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:31:07,125 - src.api.routes - INFO - 分析完成: title=阿维塔总裁回应懂车帝测试：成绩与预期有差距，最重要的不是排名而是用户的使用安全, is_opinion=True, sentiment=neutral
+2025-07-30 16:31:07,129 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=1, opinion_ratio=100.00%
+2025-07-30 16:31:07,579 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:31:09,524 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:31:39,420 - src.api.routes - INFO - 分析完成: title=阿维塔总裁回应懂车帝测试：成绩与预期有差距，最重要的不是排名而是用户的使用安全, is_opinion=True, sentiment=neutral
+2025-07-30 16:31:39,428 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=1, opinion_ratio=100.00%
+2025-07-30 16:31:39,492 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:31:40,504 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:32:10,497 - src.api.routes - INFO - 分析完成: title=阿维塔总裁回应懂车帝测试：成绩与预期有差距，最重要的不是排名而是用户的使用安全, is_opinion=True, sentiment=neutral
+2025-07-30 16:32:10,506 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=1, opinion_ratio=100.00%
+2025-07-30 16:46:44,188 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:46:45,284 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:46:53,044 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:46:53,049 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:46:53,409 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:46:54,990 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:47:02,573 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:47:02,576 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:47:02,604 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:47:03,664 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:47:11,009 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:47:11,011 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:48:32,633 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:48:33,533 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:48:41,628 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:48:41,633 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:48:41,999 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:48:43,544 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:48:51,655 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:48:51,657 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:48:51,680 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:48:53,847 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:49:02,401 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:49:02,403 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:56:06,911 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:56:09,132 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:56:10,351 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=True, sentiment=positive
+2025-07-30 16:56:10,355 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=1, opinion_ratio=100.00%
+2025-07-30 16:56:10,718 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:56:12,325 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:56:19,275 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=positive
+2025-07-30 16:56:19,277 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:56:19,298 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:56:20,536 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:56:22,382 - src.analyzer.opinion_analyzer - ERROR - 分析失败: 分析失败
+2025-07-30 16:56:22,383 - src.api.routes - INFO - 分析完成: title=中科信息(300678.SZ)：智能铺路机器人正处于测试阶段, is_opinion=False, sentiment=neutral
+2025-07-30 16:56:22,384 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=0, opinion_ratio=0.00%
+2025-07-30 16:57:14,202 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:57:14,203 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:57:14,204 - src.api.routes - INFO - 分析完成: title=测试新闻1, is_opinion=True, sentiment=positive
+2025-07-30 16:57:14,205 - src.api.routes - INFO - 分析统计: keyword=测试, total=1, opinion_count=1, opinion_ratio=100.00%
+2025-07-30 16:57:14,218 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:57:14,219 - src.api.routes - ERROR - 搜索新闻失败: 爬取失败
+2025-07-30 16:57:14,232 - src.api.routes - INFO - 收到舆情分析请求: keyword=测试, limit=1
+2025-07-30 16:57:14,232 - src.api.routes - INFO - 搜索到 1 条新闻
+2025-07-30 16:57:14,233 - src.analyzer.opinion_analyzer - ERROR - 分析失败: 分析失败
+2025-07-30 16:57:14,233 - src.api.routes - ERROR - 分析新闻失败: 分析失败: 分析失败
+{"timestamp": "2025-07-30 17:17:53,952", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:17:55,419", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:17:57,361", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:17:59,175", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:17:59,177", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:17:59,190", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:18:00,479", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:18:00,485", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:18:02,400", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:18:03,463", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:18:03,474", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:18:04,804", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:18:05,923", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:18:05,925", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:18:05,962", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:18:07,944", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:18:09,192", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:18:09,193", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:18:09,199", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:18:10,564", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:18:12,348", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:18:12,349", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:19:16,873", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:19:17,939", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:19:19,236", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:19:21,108", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:19:21,110", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:19:21,123", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:19:23,006", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:19:23,015", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:19:23,674", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:19:25,575", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:19:25,583", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:19:26,949", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:19:28,577", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:19:28,578", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:19:28,617", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:19:30,551", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:19:31,593", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:19:31,595", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:19:31,600", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:19:32,169", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:19:33,584", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:19:33,585", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:20:04,028", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:20:05,219", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:20:06,514", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:20:07,188", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:20:07,189", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:20:07,203", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:20:08,178", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:20:08,185", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:20:09,191", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:20:09,735", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:20:09,746", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:20:11,700", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:20:12,443", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:20:12,444", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:20:12,498", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:20:13,999", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:20:15,632", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:20:15,634", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:20:15,641", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:20:17,315", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:20:18,126", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:20:18,127", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:21:19,628", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:21:20,541", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:21:22,225", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:21:23,176", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:21:23,179", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:21:23,193", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:21:24,835", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:21:24,847", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:21:26,489", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:21:27,383", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:21:27,391", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:21:29,310", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:21:30,652", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:21:30,653", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:21:30,690", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:21:31,785", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:21:32,779", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:21:32,780", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:23:59,541", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:24:00,553", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:24:01,805", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:24:02,626", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:24:02,627", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:24:02,643", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:24:04,287", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:24:04,294", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:24:05,267", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:24:07,018", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:24:07,027", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:24:07,576", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:24:09,540", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:24:09,543", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:24:09,587", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:24:11,585", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:24:12,507", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:24:12,508", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:26:27,334", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:26:28,659", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:26:30,141", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:26:31,934", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:26:31,936", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:26:31,952", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:26:33,147", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:26:33,154", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:26:35,108", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:26:36,938", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:26:36,946", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:26:38,502", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:26:39,497", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:26:39,498", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:26:39,580", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:26:41,410", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:26:42,144", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:26:42,145", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:27:46,972", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:27:48,157", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:27:48,833", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:27:50,836", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:27:50,838", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:27:50,854", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:27:51,429", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:27:51,436", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:27:52,546", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:27:54,338", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:27:54,346", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:27:55,454", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:27:56,162", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:27:56,163", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:27:56,199", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:27:56,720", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:27:58,016", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:27:58,017", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:27:58,024", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:27:59,574", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:28:00,871", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:28:00,872", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:28:49,585", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:28:51,567", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:28:53,083", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:28:54,366", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻2, is_opinion=True, sentiment=negative"}
+{"timestamp": "2025-07-30 17:28:54,367", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=2, opinion_count=2, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:28:54,378", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:28:55,917", "name": "src.api.routes", "level": "ERROR", "message": "搜索新闻失败: 请求搜索页面失败: 500 Server Error: None for url: https://search.sina.com.cn/news?q=%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&range=all&c=news"}
+{"timestamp": "2025-07-30 17:28:55,926", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:28:56,609", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:28:58,096", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 请求新闻页面失败: 404 Client Error: None for url: https://news.sina.com.cn/test1"}
+{"timestamp": "2025-07-30 17:28:58,102", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=2"}
+{"timestamp": "2025-07-30 17:28:58,104", "name": "src.api.routes", "level": "INFO", "message": "搜索到 2 条新闻"}
+{"timestamp": "2025-07-30 17:28:59,939", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:28:59,940", "name": "src.api.routes", "level": "ERROR", "message": "分析新闻失败: 分析失败: API请求失败: 500 Server Error: None for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 17:28:59,973", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:29:01,775", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:29:03,415", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:29:03,416", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 17:29:03,422", "name": "src.api.routes", "level": "INFO", "message": "收到舆情分析请求: keyword=测试公司, limit=1"}
+{"timestamp": "2025-07-30 17:29:03,423", "name": "src.api.routes", "level": "INFO", "message": "搜索到 1 条新闻"}
+{"timestamp": "2025-07-30 17:29:03,423", "name": "src.api.routes", "level": "INFO", "message": "分析完成: title=测试新闻1, is_opinion=True, sentiment=positive"}
+{"timestamp": "2025-07-30 17:29:03,424", "name": "src.api.routes", "level": "INFO", "message": "分析统计: keyword=测试公司, total=1, opinion_count=1, opinion_ratio=100.00%"}
+{"timestamp": "2025-07-30 21:01:10,175", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:02:45,177", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:02:50,043", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 21:02:50,270", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 21:07:27,154", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:07:32,138", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 21:07:32,344", "name": "src.analyzer.opinion_analyzer", "level": "ERROR", "message": "分析失败: API请求失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 21:09:09,702", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:10:30,424", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:11:33,841", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:12:32,601", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:28:49,400", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:30:12,704", "name": "src.crawler.sina_crawler", "level": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:30:20,739", "name": "test", "level": "DEBUG", "message": "Logger initialized"}
+{"timestamp": "2025-07-30 21:30:20,741", "name": "test", "level": "INFO", "message": "info message"}
+{"timestamp": "2025-07-30 21:30:20,741", "name": "test", "level": "WARNING", "message": "warning message"}
+{"timestamp": "2025-07-30 21:30:20,741", "name": "test", "level": "ERROR", "message": "error message"}
+{"timestamp": "2025-07-30 21:30:20,745", "name": "test", "level": "CRITICAL", "message": "critical message"}
+{"timestamp": "2025-07-30 21:30:20,754", "name": "test", "level": "ERROR", "message": "An error occurred", "exception": "Traceback (most recent call last):\n  File \"D:\\VsCode\\VsText\\PYTHON\\Opinion_analysis\\opinion_analyzer\\src\\tests\\test_utils\\test_logger.py\", line 135, in test_logger_exception\n    raise ValueError(\"test error\")\nValueError: test error"}
+{"timestamp": "2025-07-30 21:30:20,764", "name": "test", "level": "INFO", "message": "test message", "extra_fields": {"context": "test"}}
+{"timestamp": "2025-07-30 21:30:20,793", "name": "test", "level": "ERROR", "message": "test error", "extra_fields": {"context": "test"}}
+{"timestamp": "2025-07-30 21:32:42,024", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未找到文章内容容器: http://test.com/news1"}
+{"timestamp": "2025-07-30 21:32:50,779", "name": "test_logger", "levelname": "INFO", "message": "开始执行函数: example_function", "extra_fields": {"function": "example_function", "args": "('a',)", "kwargs": "{'arg2': 'b'}"}}
+{"timestamp": "2025-07-30 21:32:50,780", "name": "test_logger", "levelname": "INFO", "message": "函数执行完成: example_function", "extra_fields": {"function": "example_function", "args": "('a',)", "kwargs": "{'arg2': 'b'}", "execution_time": 0.0011703968048095703, "status": "success"}}
+{"timestamp": "2025-07-30 21:32:50,800", "name": "test", "levelname": "DEBUG", "message": "Logger initialized"}
+{"timestamp": "2025-07-30 21:32:50,800", "name": "test", "levelname": "INFO", "message": "info message"}
+{"timestamp": "2025-07-30 21:32:50,802", "name": "test", "levelname": "WARNING", "message": "warning message"}
+{"timestamp": "2025-07-30 21:32:50,804", "name": "test", "levelname": "ERROR", "message": "error message"}
+{"timestamp": "2025-07-30 21:32:50,804", "name": "test", "levelname": "CRITICAL", "message": "critical message"}
+{"timestamp": "2025-07-30 21:32:50,812", "name": "test", "levelname": "ERROR", "message": "An error occurred", "exception": "Traceback (most recent call last):\n  File \"D:\\VsCode\\VsText\\PYTHON\\Opinion_analysis\\opinion_analyzer\\src\\tests\\test_utils\\test_logger.py\", line 135, in test_logger_exception\n    raise ValueError(\"test error\")\nValueError: test error"}
+{"timestamp": "2025-07-30 21:32:50,824", "name": "test", "levelname": "INFO", "message": "test message"}
+{"timestamp": "2025-07-30 21:32:50,828", "name": "test", "levelname": "ERROR", "message": "test error"}
+{"timestamp": "2025-07-30 22:23:08,545", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 22:23:08,547", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 22:23:08,548", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 22:23:08,549", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 22:24:21,717", "name": "src.analyzer.opinion_analyzer", "levelname": "ERROR", "message": "分析失败: API请求失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions"}
+{"timestamp": "2025-07-30 22:26:55,593", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 22:26:55,594", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 22:26:55,594", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 22:26:55,595", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 22:28:49,644", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未提取到文章内容: https://k.sina.com.cn/article_2038999587_m7988aa2300101xli4.html"}
+{"timestamp": "2025-07-30 22:32:52,542", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 22:32:52,543", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 22:32:52,543", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 22:32:52,544", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 22:34:18,321", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未提取到文章内容: https://k.sina.com.cn/article_2038999587_m7988aa2300101xli4.html"}
+{"timestamp": "2025-07-30 22:51:12,937", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 22:51:12,938", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 22:51:12,939", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 22:51:12,939", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:13:57,464", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:13:57,465", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:13:57,467", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:13:57,467", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:34:27,289", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:34:27,290", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:34:27,290", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:34:27,291", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:36:03,757", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:36:03,758", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:36:03,759", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:36:03,760", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:37:26,669", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未提取到文章内容: https://t.cj.sina.com.cn/articles/view/1981654210/m761da4c205301aopy"}
+{"timestamp": "2025-07-30 23:37:29,695", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未提取到文章内容: https://t.cj.sina.com.cn/articles/view/1981654210/m761da4c203301aoq0"}
+{"timestamp": "2025-07-30 23:37:32,432", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未提取到文章内容: https://t.cj.sina.com.cn/articles/view/7879923924/m1d5ae18d40200160wg"}
+{"timestamp": "2025-07-30 23:43:28,530", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:43:28,531", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:43:28,531", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:43:28,532", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:50:16,419", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:50:16,420", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:50:16,421", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:50:16,422", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:52:41,204", "name": "src.analyzer.opinion_analyzer", "levelname": "ERROR", "message": "分析失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."}
+{"timestamp": "2025-07-30 23:56:29,680", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-30 23:56:29,682", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-30 23:56:29,682", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-30 23:56:29,683", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}
+{"timestamp": "2025-07-30 23:58:50,879", "name": "src.crawler.sina_crawler", "levelname": "WARNING", "message": "未找到文章内容容器: https://video.sina.com.cn/p/finance/2025-07-30/detail-infihfys9913567.d.html"}
+{"timestamp": "2025-07-30 23:59:23,205", "name": "src.analyzer.opinion_analyzer", "levelname": "ERROR", "message": "分析失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."}
+{"timestamp": "2025-07-31 00:10:27,140", "name": "__main__", "levelname": "INFO", "message": "正在启动舆情分析API服务..."}
+{"timestamp": "2025-07-31 00:10:27,142", "name": "__main__", "levelname": "INFO", "message": "服务地址: http://127.0.0.1:8000"}
+{"timestamp": "2025-07-31 00:10:27,142", "name": "__main__", "levelname": "INFO", "message": "API文档地址: http://127.0.0.1:8000/api/docs"}
+{"timestamp": "2025-07-31 00:10:27,143", "name": "__main__", "levelname": "INFO", "message": "调试模式: 关闭"}

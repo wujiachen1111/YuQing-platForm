@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "opinion-analyzer"
+version = "0.1.0"
+description = "Public opinion analysis tool"
+authors = ["Your Name <your.email@example.com>"]
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+fastapi = "0.78.0"        
+uvicorn = "^0.18.3"        
+pydantic = "^1.8.2"
+python-dotenv = "0.19.0"
+starlette = "0.19.1"       
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+requests-mock = "^1.11.0"
+pytest-cov = "^4.1.0"
+pytest-asyncio = "^0.20.3" 
+flake8 = "^7.0.0"
+black = "^24.1.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
